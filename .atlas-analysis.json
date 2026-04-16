@@ -1,0 +1,140 @@
+{
+  "projectType": "saas",
+  "projectName": "NetherGames Helpdesk",
+  "projectDescription": "The official support helpdesk for NetherGames Network, a Minecraft Bedrock Edition game server, covering rules, ranks, in-game systems, and community features.",
+  "theme": "almond",
+  "primaryColor": "#663ebc",
+  "lightColor": "#b49cdc",
+  "darkColor": null,
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Help Center",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "faq",
+              "connecting-on-mobile-and-console",
+              "troubleshooting-connection-issues"
+            ]
+          },
+          {
+            "group": "Ranks & Store",
+            "pages": [
+              "buying-a-premium-rank",
+              "credits-and-tiers",
+              "titan-perks-faq",
+              "managing-your-titan-subscription",
+              "applying-for-a-refund",
+              "sending-and-receiving-gifts",
+              "payment-options-in-india",
+              "paying-with-paysafecard"
+            ]
+          },
+          {
+            "group": "In-Game Systems",
+            "pages": [
+              "useful-commands",
+              "friends-system",
+              "guilds-system",
+              "in-game-emojis",
+              "allocation-of-xp",
+              "map-rotations",
+              "season-rotations",
+              "regions",
+              "jobs"
+            ]
+          },
+          {
+            "group": "Factions & Skyblock",
+            "pages": [
+              "skyblock-crates-and-enchantments",
+              "skyblock-kits",
+              "skyblock-crate-keys",
+              "factions-crate-keys",
+              "rollbacks-in-factions-and-skyblock",
+              "scamming-in-factions-and-skyblock"
+            ]
+          },
+          {
+            "group": "Community",
+            "pages": [
+              "joining-our-discord-server",
+              "linking-your-nethergames-and-discord-account",
+              "discord-server-regulations",
+              "nitro-boosting-rewards",
+              "contacting-modmail",
+              "submitting-feedback",
+              "cosmetic-crate-keys"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Policies & Safety",
+        "groups": [
+          {
+            "group": "Rules & Policies",
+            "pages": [
+              "terms-of-service",
+              "privacy-policy",
+              "refund-policy",
+              "enforcement-system",
+              "allowed-modifications",
+              "anti-cheat",
+              "linked-accounts"
+            ]
+          },
+          {
+            "group": "Appeals & Reports",
+            "pages": [
+              "appealing-a-punishment",
+              "reporting-a-player",
+              "reporting-a-bug",
+              "security-bug-bounty",
+              "gdpr-data-erasure-requests"
+            ]
+          },
+          {
+            "group": "Programs",
+            "pages": [
+              "applying-for-staff",
+              "trainee-process",
+              "applying-for-a-youtube-rank",
+              "partner-program",
+              "branding-guidelines"
+            ]
+          },
+          {
+            "group": "Account Help",
+            "pages": [
+              "this-username-is-already-registered",
+              "unable-to-change-my-about-me"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Premium ranks (Ultra, Emerald, Legend, Titan) with perks and subscription management",
+    "Credits & Tiers reward system with season-based progression",
+    "Points-based enforcement system with appeals process",
+    "Player-reporting and modmail support channels",
+    "Factions & Skyblock game modes with crate keys and rollback support",
+    "Discord integration with role syncing and Nitro Boosting rewards",
+    "Staff, YouTube, and Partner application programs",
+    "Public API for third-party integrations"
+  ],
+  "publicApiSurface": [
+    "API portal at portal.nethergames.org/auth/applications",
+    "Full API docs at docs.nethergames.org",
+    "Player report form at ngmc.co/request",
+    "Bug report via /bug in-game command",
+    "Modmail via Discord @Modmail",
+    "Store at store.nethergames.org",
+    "Vote at ngmc.co/vote"
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "name": "NetherGames Helpdesk",
+  "theme": "almond",
+  "favicon": "https://media.brand.dev/a0ca72a6-2953-42f7-a6b6-1f31dd082a6a.png",
+  "colors": {
+    "primary": "#663ebc",
+    "light": "#b49cdc"
+  },
+  "navbar": {
+    "primary": {
+      "type": "github",
+      "href": "https://github.com/NetherGamesMC/support"
+    }
+  },
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Help Center",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "faq",
+              "connecting-on-mobile-and-console",
+              "troubleshooting-connection-issues"
+            ]
+          },
+          {
+            "group": "Ranks & Store",
+            "pages": [
+              "buying-a-premium-rank",
+              "credits-and-tiers",
+              "titan-perks-faq",
+              "managing-your-titan-subscription",
+              "applying-for-a-refund",
+              "sending-and-receiving-gifts",
+              "payment-options-in-india",
+              "paying-with-paysafecard"
+            ]
+          },
+          {
+            "group": "In-Game Systems",
+            "pages": [
+              "useful-commands",
+              "friends-system",
+              "guilds-system",
+              "in-game-emojis",
+              "allocation-of-xp",
+              "map-rotations",
+              "season-rotations",
+              "regions",
+              "jobs"
+            ]
+          },
+          {
+            "group": "Factions & Skyblock",
+            "pages": [
+              "skyblock-crates-and-enchantments",
+              "skyblock-kits",
+              "skyblock-crate-keys",
+              "factions-crate-keys",
+              "rollbacks-in-factions-and-skyblock",
+              "scamming-in-factions-and-skyblock"
+            ]
+          },
+          {
+            "group": "Community",
+            "pages": [
+              "joining-our-discord-server",
+              "linking-your-nethergames-and-discord-account",
+              "discord-server-regulations",
+              "nitro-boosting-rewards",
+              "contacting-modmail",
+              "submitting-feedback",
+              "cosmetic-crate-keys"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Policies & Safety",
+        "groups": [
+          {
+            "group": "Rules & Policies",
+            "pages": [
+              "terms-of-service",
+              "privacy-policy",
+              "refund-policy",
+              "enforcement-system",
+              "allowed-modifications",
+              "anti-cheat",
+              "linked-accounts"
+            ]
+          },
+          {
+            "group": "Appeals & Reports",
+            "pages": [
+              "appealing-a-punishment",
+              "reporting-a-player",
+              "reporting-a-bug",
+              "security-bug-bounty",
+              "gdpr-data-erasure-requests"
+            ]
+          },
+          {
+            "group": "Programs",
+            "pages": [
+              "applying-for-staff",
+              "trainee-process",
+              "applying-for-a-youtube-rank",
+              "partner-program",
+              "branding-guidelines"
+            ]
+          },
+          {
+            "group": "Account Help",
+            "pages": [
+              "this-username-is-already-registered",
+              "unable-to-change-my-about-me"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "socials": {
+      "github": "https://github.com/NetherGamesMC/support"
+    }
+  }
+}

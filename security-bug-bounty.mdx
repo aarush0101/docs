@@ -1,0 +1,54 @@
+---
+title: "Security Bug Bounty Program at NetherGames"
+description: "Responsibly disclose security vulnerabilities to NetherGames, earn credits or cash rewards, and learn the program scope and submission process."
+---
+
+NetherGames takes the privacy and security of its players seriously. The bug bounty program invites researchers and security-minded players to find and responsibly disclose vulnerabilities — and rewards them for doing so. If you've found a security issue, this page explains what's in scope, how to report it, and what to expect in return.
+
+<Warning>
+Do not exploit, publicise, or share any vulnerability before NetherGames has completed its investigation and confirmed resolution. Responsible disclosure protects both you and the players whose data and experience depend on the platform's security. NetherGames will not take legal action against you for disclosing vulnerabilities in line with these rules.
+</Warning>
+
+## How NetherGames handles security reports
+
+- Reports are responded to quickly — usually within 24 hours.
+- Each issue is assessed for validity, severity, and scope.
+- Valid findings are rewarded with store credits, or cash for severe vulnerabilities.
+
+## Program rules
+
+To participate, you must follow these rules:
+
+- Only test on accounts you directly own. Your testing must never affect other users.
+- Limit testing to sites, Minecraft servers, and services that NetherGames directly operates. Reports for third-party services or providers that integrate with NetherGames through its APIs are not accepted.
+- Do not perform actions that could harm the reliability or integrity of NetherGames' services or data. This includes brute forcing, denial of service (DoS), spamming, timing attacks, and similar harmful activities.
+- Do not use scanners or automated tools to find vulnerabilities.
+- Information about issues you find may be publicly disclosed or shared only after NetherGames has completed its investigation and resolved the issue. Once confirmed, you are welcome to document and publish your findings.
+
+## Out-of-scope vulnerabilities
+
+The following vulnerability types are generally considered out of scope. This list is not exhaustive — use your judgement about exploitability and real-world impact before submitting.
+
+<AccordionGroup>
+  <Accordion title="View out-of-scope vulnerability types">
+    - Attacks requiring MITM or physical access to a user's device
+    - Brute force attacks
+    - Clickjacking
+    - Content spoofing and text injection
+    - CSRF vulnerabilities
+    - Denial of service attacks
+    - Email SPF, DKIM, and DMARC records
+    - Gift code enumeration
+    - Missing HttpOnly/Secure cookie flags
+    - Open CORS headers
+    - Publicly accessible login panels
+    - Publicly exposed game server IPs
+    - Reports from scanners and automated tools
+    - Self-exploitation (such as token reuse and console scripting)
+    - Social engineering or phishing attacks targeting users or staff
+  </Accordion>
+</AccordionGroup>
+
+## How to report a security vulnerability
+
+Select the **Bug Bounty** option at [ngmc.co/request](https://ngmc.co/request) and fill out the form with full details of the vulnerability, including reproduction steps and any supporting evidence.
